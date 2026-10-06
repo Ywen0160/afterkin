@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f2eee6">
+    <meta name="description" content="Vintage clothing, four companions and stories to collect. Choose a piece and unlock its companion’s seasonal Memory card.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css?v=20261005-four-page-flow">
+    <title>AFTERKIN — Vintage &amp; companionship</title>
+    <script defer src="data.js?v=20261005-four-page-flow"></script>
+    <script defer src="storage.js?v=20261005-four-page-flow"></script>
+    <script defer src="ui.js?v=20261005-four-page-flow"></script>
+    <script defer src="app.js?v=20261005-four-page-flow"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+    <header>
+      <a href="#" aria-label="AFTERKIN home"><img class="logo" src="logo.svg" alt="AFTERKIN"></a>
+      <nav aria-label="Main">
+        <a href="#collection">The collection</a>
+        <a href="#archive">My archive <span id="count">0</span></a>
+      </nav>
+    </header>
+    <main id="app" tabindex="-1"></main>
+    <footer>
+      <img src="logo.svg" alt="AFTERKIN">
+      <p>Wear the piece. Keep the story.</p>
+      <a href="#studio">Meet the companions</a>
+      <a href="#memories">Memory cards</a>
+      <button id="reset">Reset demo</button>
+      <small>Portfolio prototype · purchases are simulated.</small>
+      <small>Character imagery and story visuals: AI-assisted.</small>
+    </footer>
+    <div id="modal-root"></div>
+    <div id="toast" role="status"></div>
+  </body>
+</html>
